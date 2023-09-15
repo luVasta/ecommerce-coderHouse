@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado de Tintas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <h1 class="navbar-logo">Shop</h1>
+            </div>
+            <div class="nav-center">
+                <div class="search-container">
+                    <input type="text" id="searchBar" class="search-bar" placeholder="Buscar productos">
+                    <button id="searchButton" class="search-button">Buscar</button>
+                </div>
+            </div>
+            <div class="nav-right">
+                <h1 class="ver-carrito" id="verCarrito">🛒</h1>
+            </div>
+            <h1 id="cerrarModal"></h1>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <div class="banner-container">
+            <h1>Mercado de Tintas</h1>
+            <p>El mejor lugar para encontrar tus vinitos</p>
+        </div>
+    </div>
+
+    <div id="saludo" class="saludo"></div>
+    
+    <div id="shopContent" class="shop-content"></div>
+
+    <div id="modalContainer" class="modal-container"></div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./productos.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
